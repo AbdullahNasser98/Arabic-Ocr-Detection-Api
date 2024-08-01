@@ -51,9 +51,8 @@ async def predict(file: UploadFile = File(...)):
                 corrected_text_spell = correct_spelling(text)
                 
                 final_texts.append({
-                    # "detected_text": text,
-                    # "confidence": prob,
-                    "corrected_text_spell": corrected_text_spell,
+                    "bounding_box": [x1, y1, x2, y2],
+                    "corrected_text_spell": corrected_text_spell
                 })
 
     return JSONResponse(content=final_texts)
