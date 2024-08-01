@@ -25,7 +25,6 @@ This project provides a FastAPI-based web service for performing object detectio
    | Fine-tuned Yolov8m       | PyTorch     |  0.492        | 0.649        | 0.575      |                
    | Fine-tuned Yolov8m       | ONNX        |  0.486        | 0.659        | 0.569      |               
    | Fine-tuned Yolov8m       | FP16        |  0.485        | 0.651        | 0.574      |               
-   | Fine-tuned Yolov8m       | INT8        |  0.5987       | 0.9043       | 0.8570     | 
 
    ### Training
 
